@@ -937,15 +937,12 @@ var getHeight = function (_a) {
             return "40px";
     }
 };
-var Input$1 = styled.input(templateObject_1$r || (templateObject_1$r = __makeTemplateObject(["\n  background-color: #4c68ef;\n  border: 0;\n  border-radius: 1px;\n  box-shadow: ", ";\n  color: #4c68ef;\n  display: block;\n  font-size: 16px;\n  height: ", ";\n  outline: 0;\n  padding: 0 16px;\n  width: 100%;\n\n  &::placeholder {\n    color: #4c68ef;\n  }\n\n  &:disabled {\n    background-color: ", ";\n    box-shadow: none;\n    color: ", ";\n    cursor: not-allowed;\n  }\n\n  &:focus:not(:disabled) {\n    box-shadow: ", ";\n  }\n"], ["\n  background-color: #4c68ef;\n  border: 0;\n  border-radius: 1px;\n  box-shadow: ", ";\n  color: #4c68ef;\n  display: block;\n  font-size: 16px;\n  height: ", ";\n  outline: 0;\n  padding: 0 16px;\n  width: 100%;\n\n  &::placeholder {\n    color: #4c68ef;\n  }\n\n  &:disabled {\n    background-color: ", ";\n    box-shadow: none;\n    color: ", ";\n    cursor: not-allowed;\n  }\n\n  &:focus:not(:disabled) {\n    box-shadow: ", ";\n  }\n"])), getBoxShadow, getHeight, function (_a) {
+var Input$1 = styled.input(templateObject_1$r || (templateObject_1$r = __makeTemplateObject(["\n  background-color: #efefef;\n  border: 0;\n  border-radius: 1px;\n  box-shadow: ", ";\n  color: #4c68ef;\n  display: block;\n  font-size: 16px;\n  height: ", ";\n  outline: 0;\n  padding: 0 16px;\n  width: 100%;\n\n  &::placeholder {\n    color: #4c68ef;\n  }\n\n  &:disabled {\n    background-color: ", ";\n    box-shadow: none;\n    color: ", ";\n    cursor: not-allowed;\n  }\n\n  &:focus:not(:disabled) {\n    box-shadow: #4c68ef;\n  }\n"], ["\n  background-color: #efefef;\n  border: 0;\n  border-radius: 1px;\n  box-shadow: ", ";\n  color: #4c68ef;\n  display: block;\n  font-size: 16px;\n  height: ", ";\n  outline: 0;\n  padding: 0 16px;\n  width: 100%;\n\n  &::placeholder {\n    color: #4c68ef;\n  }\n\n  &:disabled {\n    background-color: ", ";\n    box-shadow: none;\n    color: ", ";\n    cursor: not-allowed;\n  }\n\n  &:focus:not(:disabled) {\n    box-shadow: #4c68ef;\n  }\n"])), getBoxShadow, getHeight, function (_a) {
     var theme = _a.theme;
     return theme.colors.backgroundDisabled;
 }, function (_a) {
     var theme = _a.theme;
     return theme.colors.textDisabled;
-}, function (_a) {
-    var theme = _a.theme;
-    return theme.shadows.focus;
 });
 Input$1.defaultProps = {
     scale: scales$1.MD,
