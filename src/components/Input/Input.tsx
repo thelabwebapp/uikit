@@ -57,7 +57,7 @@ const Input = styled.input<InputProps>`
   }
 
   &:focus:not(:disabled) {
-    box-shadow: "0px 0px 0px 1px #4c68ef, 0px 0px 0px 4px rgba(76,104,239,0.2)";
+    box-shadow: 0px 0px 0px 1px #4c68ef, 0px 0px 0px 4px rgba(76,104,239,0.2);
   }
 `;
 
