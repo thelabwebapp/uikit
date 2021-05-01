@@ -571,7 +571,7 @@ var Alert = function (_a) {
     var Icon = getIcon(variant);
     return (React.createElement(StyledAlert, null,
         React.createElement(IconLabel, { variant: variant, hasDescription: !!children },
-            React.createElement(Icon, { color: "currentColor", width: "24px" })),
+            React.createElement(Icon, { color: "white", width: "24px" })),
         React.createElement(Details, { hasHandler: !!onClick },
             React.createElement(Text, { bold: true }, title),
             typeof children === "string" ? React.createElement(Text, { as: "p" }, children) : children),
