@@ -59,9 +59,9 @@ const NFTCard: React.FC<CardProps> = ({
     color: "text";
     overflow: hidden;
     position: relative;
-    width: 370px;
+    width: 340px;
     padding: 30px;
-    padding-top: 280px;
+    padding-top: 210px;
   `;
 
   return (
