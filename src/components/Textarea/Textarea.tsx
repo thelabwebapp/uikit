@@ -44,8 +44,6 @@ const Textarea = styled.textarea<TextareaProps>`
   outline: 0;
   padding: 12px 16px;
   width: 100%;
-  margin: 4px 5px;
-
   &::placeholder {
     color: ${({ theme }) => theme.colors.textSubtle};
   }
